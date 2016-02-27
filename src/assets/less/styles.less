@@ -1,6 +1,15 @@
-.titre {
-  text-align: left;
-  font-size: medium;
-  font: "Trebuchet MS", Verdana, sans-serif;
-  color: #660000;
+@font-size : large;
+
+body {
+  .titre1 {
+    text-align: left; font-size: @font-size; font: "Trebuchet MS", Verdana, sans-serif;  color: #660000;
+    display: flex;
+  }
+
+  .section {
+    &.titre1 {
+      text-align: left;
+      font-size: @font-size;  font: "Trebuchet MS", Verdana, sans-serif;  color: #0000f6;
+    }
+  }
 }
