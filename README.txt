@@ -37,4 +37,10 @@ zepto
 phonegap
 yepnope
 … knacss
-Une base
+Une base*
+
+LESS :
+https://openclassrooms.com/courses/simplifiez-vous-la-vie-avec-less
+http://lesscss.org/#docs
+
+

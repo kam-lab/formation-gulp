@@ -1,10 +1,11 @@
-@font-size : medium;
+@import "variables.less";
 
 body {
   .titre1 {
     text-align: left; font-size: @font-size; font: "Trebuchet MS", Verdana, sans-serif;  color: #660000;
     display: flex;
     text-overflow: ellipsis;
+    .bg(24px);
   }
 
   .section {
@@ -13,4 +14,22 @@ body {
       font-size: @font-size;  font: "Trebuchet MS", Verdana, sans-serif;  color: #0000f6;
     }
   }
+  .box {
+    width: @image-size + 10px;
+    height: @image-size + 10px;
+    img {
+      width: @image-size;
+      height: @image-size;
+    }
+    .thumbnail {
+      width: @thumbnail-size;
+      height: @thumbnail-size;
+    }
+  }
+}
+
+.bg(@size: 32px) {
+  background-color: #009900;
+  background-size: @size @size;
+  background-repeat: no-repeat;
 }
