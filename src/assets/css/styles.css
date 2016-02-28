@@ -1,17 +1,18 @@
 body .titre1 {
   font: 'Trebuchet MS', Verdana, sans-serif;
-  font-size: large;
+  font-size: medium;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   text-align: left;
+  text-overflow: ellipsis;
   color: #600;
 }
 
 body .section.titre1 {
   font: 'Trebuchet MS', Verdana, sans-serif;
-  font-size: large;
+  font-size: medium;
   text-align: left;
   color: #0000f6;
 }

@@ -1,0 +1,5 @@
+body .titreNews {
+  text-align: left;
+  text-overflow: ellipsis;
+  color: #700;
+}

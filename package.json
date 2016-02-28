@@ -1,0 +1,28 @@
+{
+  "name": "formagulp",
+  "version": "1.0.0",
+  "description": "Formation Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-rename": "latest",
+    "gulp-csso": "latest",
+    "gulp-less": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-uncss": "latest",
+    "critical": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-html-extend": "latest"
+  }
+}

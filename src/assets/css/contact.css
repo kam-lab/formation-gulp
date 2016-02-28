@@ -1,0 +1,5 @@
+body .titreContact {
+  text-align: left;
+  text-overflow: ellipsis;
+  color: #800;
+}
